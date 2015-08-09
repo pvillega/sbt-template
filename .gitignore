@@ -1,0 +1,15 @@
+# ignore the following in every folder and subfolder
+RUNNING_PID
+logs/
+bin/
+target/
+
+# ignore only on root folder
+/project/*-shim.sbt
+/project/project/
+/project/target/
+
+# other files to ignore
+.idea
+.DS_Store
+*.log
